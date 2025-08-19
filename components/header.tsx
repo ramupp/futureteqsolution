@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import { Menu, X, MapPin, Phone, Mail } from "lucide-react"
 
-export default function header() {
+export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const pathname = usePathname()
 

@@ -26,8 +26,6 @@ export default function Header() {
   ]
 
   const careerPage = { name: "Career", href: "/career" }
-
-  // Resources removed, but blog link kept as standalone
   const blogPage = { name: "Blog", href: "/blog" }
 
   // Utility for active link styling (parent + child highlighting)
@@ -38,7 +36,7 @@ export default function Header() {
     const isActive =
       isActiveLink(href) || matchChildren.some((child) => isActiveLink(child))
 
-    return `group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors
+    return `group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-bold transition-colors
       hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground
       ${isActive ? "bg-accent/70 text-accent-foreground" : ""}`
   }
@@ -187,7 +185,7 @@ export default function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className={`px-2 py-1 text-sm rounded ${
+                  className={`px-2 py-1 text-sm font-bold rounded ${
                     isActiveLink(item.href) ? "bg-accent text-accent-foreground" : "hover:bg-accent"
                   }`}
                 >

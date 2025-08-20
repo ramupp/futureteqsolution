@@ -48,7 +48,7 @@ export default function ServicesPage() {
         "Legacy System Modernization",
         "Cloud-Native Applications",
       ],
-      technologies: ["React", "Node.js", "Python", "Java", ".NET", "PostgreSQL", "MongoDB", "AWS"],
+      technologies: ["React", "Node.js", "Python", "Java", ".NET", "PostgreSQL", "MongoDB", "AWS", "MYSQL", "Oracle", "Spring boot", "Spring", "Hibernate", "Swagger", "JPA", "Angular JS", "GITHUB", "HTML", "CSS", "JavaScript", "JSP", "Java"],
       benefits: [
         "Scalable and maintainable code architecture",
         "Reduced operational costs and improved efficiency",
@@ -71,7 +71,7 @@ export default function ServicesPage() {
         "Disaster Recovery Planning",
         "Performance Optimization",
       ],
-      technologies: ["Dell", "HP", "Cisco", "VMware", "Linux", "Windows Server", "Docker", "Kubernetes"],
+      technologies: ["Dell", "HP", "Cisco", "VMware", "Linux", "Windows Server", "Docker", "Kubernetes", "CI/CD"],
       benefits: [
         "Reliable and high-performance infrastructure",
         "24/7 monitoring and support",
@@ -94,7 +94,7 @@ export default function ServicesPage() {
         "Web Application Security",
         "Performance Optimization",
       ],
-      technologies: ["React", "Next.js", "Vue.js", "Angular", "WordPress", "Shopify", "Tailwind CSS", "TypeScript"],
+      technologies: ["React", "Next.js", "Vue.js", "Angular", "WordPress", "Shopify", "Tailwind CSS", "TypeScript", "MYSQL", "Oracle", "Spring boot", "Spring", "Hibernate", "Swagger", "JPA", "Angular JS", "GITHUB", "HTML", "CSS", "JavaScript", "JSP", "Java"],
       benefits: [
         "Mobile-first responsive design",
         "Fast loading times and optimal performance",
@@ -116,7 +116,7 @@ export default function ServicesPage() {
         "Push Notifications",
         "Offline Functionality",
       ],
-      technologies: ["React Native", "Flutter", "Swift", "Kotlin", "Xamarin", "Firebase", "AWS Mobile", "GraphQL"],
+      technologies: ["React Native", "Flutter", "Swift", "Kotlin", "Xamarin", "Firebase", "AWS Mobile", "GraphQL", "Java"],
       benefits: [
         "Native performance and user experience",
         "Faster time-to-market with cross-platform solutions",

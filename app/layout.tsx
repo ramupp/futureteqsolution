@@ -23,17 +23,16 @@ export const metadata: Metadata = {
   generator: "v0.app",
   icons: {
     icon: [
-      { url: "/lo.png", sizes: "16x16", type: "image/png" },   // favicon tab
-      { url: "/lo.png", sizes: "32x32", type: "image/png" },   // for retina tab / bookmarks
-      { url: "/lo.png", sizes: "48x48", type: "image/png" },   // Windows tile / alt usage
+      { url: "/lo.png", sizes: "16x16", type: "image/png" },   // Favicon small tab
+      { url: "/lo.png", sizes: "32x32", type: "image/png" },   // Retina/bookmarks
+      { url: "/lo.png", sizes: "48x48", type: "image/png" },   // Windows tile
       { url: "/lo.png", sizes: "192x192", type: "image/png" }, // Android
       { url: "/lo.png", sizes: "512x512", type: "image/png" }, // PWA install
     ],
     shortcut: "/lo.png",
-    apple: "/lo.png", // iOS home screen
+    apple: "/lo.png",
   },
 }
-
 
 export default function RootLayout({
   children,
@@ -41,7 +40,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${manrope.variable} antialiased`}>
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${manrope.variable} antialiased`}
+    >
       <body>{children}</body>
     </html>
   )

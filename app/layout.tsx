@@ -23,14 +23,14 @@ export const metadata: Metadata = {
   generator: "v0.app",
   icons: {
     icon: [
-      { url: "/lo.png", sizes: "16x16", type: "image/png" },   // Favicon small tab
-      { url: "/lo.png", sizes: "32x32", type: "image/png" },   // Retina/bookmarks
-      { url: "/lo.png", sizes: "48x48", type: "image/png" },   // Windows tile
-      { url: "/lo.png", sizes: "192x192", type: "image/png" }, // Android
-      { url: "/lo.png", sizes: "512x512", type: "image/png" }, // PWA install
+      { url: "/lo-light.png", sizes: "16x16", type: "image/png" },   // Favicon small tab
+      { url: "/lo-light.png", sizes: "32x32", type: "image/png" },   // Retina/bookmarks
+      { url: "/lo-light.png", sizes: "48x48", type: "image/png" },   // Windows tile
+      { url: "/lo-light.png", sizes: "192x192", type: "image/png" }, // Android
+      { url: "/lo-light.png", sizes: "512x512", type: "image/png" }, // PWA install
     ],
-    shortcut: "/lo.png",
-    apple: "/lo.png",
+    shortcut: "/lo-light.png",
+    apple: "/lo-light.png",
   },
 }
 

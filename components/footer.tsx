@@ -13,7 +13,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center space-x-3 group">
               <div className="relative">
                 <img
-                  src="/logo2.png"
+                  src="/logo.png"
                   alt="Future Teq Solution"
                   className="h-20 w-20 transition-transform group-hover:scale-105"
                 />

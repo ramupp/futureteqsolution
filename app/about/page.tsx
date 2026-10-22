@@ -66,7 +66,7 @@ export default function AboutPage() {
     },
     {
       name: "Jyoti Bharti",
-      role: "Lead Graphic Designer",
+      role: "Java Developer",
       image: "jyoti.jpg",
       description: "Lead Graphic Designer – crafting visually stunning designs and creative experiences that bring Future Teq Solution’s ideas to life.",
       email: "futureteqsolutions2021@gmail.com",

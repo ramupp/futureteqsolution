@@ -97,57 +97,55 @@ export default function CareerPage() {
     <div className="min-h-screen">
       <Header />
 
-     {/* Hero Section */}
-<section className="relative py-20 bg-gradient-to-r from-primary to-primary/80">
-  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-      <div className="text-primary-foreground">
-        <Badge variant="secondary" className="mb-4 text-xl">
-          Join Our Team
-        </Badge>
-        <h1 className="text-4xl md:text-5xl font-sans font-bold mb-6">
-          Build Your Future with Future Teq
-        </h1>
-        <p className="text-lg mb-8 opacity-90 leading-relaxed">
-          Join a team of <strong>innovators</strong> and <strong>problem-solvers</strong> who are 
-          shaping the <strong>future of technology</strong>. At <strong>Future Teq Solution</strong>, 
-          we don’t just build software — we create <strong>experiences</strong> that empower businesses 
-          and people to thrive in a <strong>digital-first world</strong>.
+      {/* Hero Section */}
+      <section className="relative py-20 bg-gradient-to-r from-primary to-primary/80">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="text-primary-foreground">
+              <Badge variant="secondary" className="mb-4 text-xl">
+                Join Our Team
+              </Badge>
+              <h1 className="text-4xl md:text-5xl font-sans font-bold mb-6">
+                Build Your Future with Future Teq
+              </h1>
+              <p className="text-lg mb-8 opacity-90 leading-relaxed">
+                Join a team of <strong>innovators</strong> and <strong>problem-solvers</strong> who are 
+                shaping the <strong>future of technology</strong>. At <strong>Future Teq Solution</strong>, 
+                we don’t just build software — we create <strong>experiences</strong> that empower businesses 
+                and people to thrive in a <strong>digital-first world</strong>.
 
-          We offer <strong>exciting career opportunities</strong> across IT support, web development, 
-          ERP solutions, and emerging technologies. Along with <strong>competitive benefits</strong>, 
-          <strong> growth programs</strong>, and a culture of <strong>innovation</strong> and 
-          <strong> collaboration</strong>, we ensure you achieve your professional goals while 
-          maintaining a healthy <strong>work-life balance</strong>.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4">
-          {/* Scroll to Job Section */}
-          <Button
-            size="lg"
-            variant="secondary"
-            onClick={() => {
-              const section = document.getElementById("job-openings")
-              if (section) {
-                section.scrollIntoView({ behavior: "smooth" })
-              }
-            }}
-          >
-            View Open Positions
-          </Button>
+                We offer <strong>exciting career opportunities</strong> across IT support, web development, 
+                ERP solutions, and emerging technologies. Along with <strong>competitive benefits</strong>, 
+                <strong> growth programs</strong>, and a culture of <strong>innovation</strong> and 
+                <strong> collaboration</strong>, we ensure you achieve your professional goals while 
+                maintaining a healthy <strong>work-life balance</strong>.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                {/* Scroll to Job Section */}
+                <Button
+                  size="lg"
+                  variant="secondary"
+                  onClick={() => {
+                    const section = document.getElementById("job-openings")
+                    if (section) {
+                      section.scrollIntoView({ behavior: "smooth" })
+                    }
+                  }}
+                >
+                  View Open Positions
+                </Button>
+              </div>
+            </div>
+            <div className="relative">
+              <img
+                src="/pexels-divinetechygirl-1181406.jpg"
+                alt="Future Teq Team"
+                className="rounded-lg shadow-2xl"
+              />
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="relative">
-        <img
-          src="/pexels-divinetechygirl-1181406.jpg"
-          alt="Future Teq Team"
-          className="rounded-lg shadow-2xl"
-        />
-      </div>
-    </div>
-  </div>
-</section>
-
-
+      </section>
 
       {/* Why Work With Us */}
       <section className="py-16">
@@ -222,15 +220,33 @@ export default function CareerPage() {
         </div>
       </section>
 
-      {/* Job Openings (REPLACEMENT) */}
+      {/* Job Openings */}
       <section id="job-openings" className="py-24 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-sans font-bold text-primary mb-6 animate-pulse">
-            Job Openings Coming Soon...
+          <Badge variant="outline" className="mb-4 text-base py-1 px-4 border-primary text-primary">
+            Current Opening
+          </Badge>
+          <h2 className="text-3xl md:text-4xl font-sans font-bold text-primary mb-4">
+            We Are Hiring: Java Developer Intern
           </h2>
-          <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-            Stay tuned! We are preparing some amazing opportunities for you to join our team.
+          <p className="text-lg text-muted-foreground max-w-xl mx-auto mb-8">
+            Are you passionate about software development and ready to kickstart your career? 
+            We are currently looking for a talented Java Intern to join our dynamic engineering team.
           </p>
+          <div>
+            {/* Replace YOUR_GOOGLE_FORM_URL_HERE with your actual Google Form link */}
+            <a
+              href="https://forms.gle/tAC8oyft5mr7NeqcA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center"
+            >
+              <Button size="lg" className="gap-2 font-semibold">
+                Interested Candidates Apply Here
+                <ArrowRight className="h-5 w-5" />
+              </Button>
+            </a>
+          </div>
         </div>
       </section>
 

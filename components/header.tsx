@@ -26,7 +26,7 @@ export default function Header() {
   ]
 
   const careerPage = { name: "Career", href: "/career" }
-  const blogPage = { name: "Blog", href: "/blog" }
+  const blogPage = { name: "Internships", href: "/blog" }
 
   // Utility for active link styling (parent + child highlighting)
   const isActiveLink = (href: string) =>
@@ -64,7 +64,7 @@ export default function Header() {
               </a>
             </div>
             <div className="hidden md:block">
-              <span>Future Teq  Solution  Since  2015</span>
+              <span>Future Teq  Solution  Since  2025</span>
             </div>
           </div>
         </div>
